@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+  
+}
+
+.App{
+  border: none;
+}
+
+ul{
+  list-style: none;
+  
+}
+
+
+li p{
+  font-size: 1.35rem;
+}
+
+.to-do-btn{
+  border-radius: 0.5rem 0 0 0;
+  outline: none;
+  border: 0.1rem solid grey;
+  
+  font-size: 1.4rem}
+
+.to-do-btn:hover{
+  transition: all 0.5s linear;
+  transform: scale(1.2);
+  border: 0.1rem solid black;
+}
+
+.completed-btn{
+  background: #c7e009;
+  margin-right: 20px;
+  width: 4rem;
+  height: 2.7rem;
+}
+
+.completed-btn:hover{
+  background: #61b15a;
+}
+
+.delete-btn{
+  background: #d11a2a ;
+  margin-right: 20px;
+  border: 0.05rem solid black ;
+  width: 4rem;
+  height: 2.6rem;
+}
+
+.delete-btn:hover{
+  background: #962a1a;
+  
+}
+
+#completed-text{
+  color: #c7e009;
+}
+
+input[type="text"]:focus {
+  box-shadow: none !important;
+}
